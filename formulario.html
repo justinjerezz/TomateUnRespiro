@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquetacion General</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="center">
+            <!-- LOGO -->
+            <div id="logo">
+                <img src="./assets/images/vue.png" alt="logotipo" class="app-logo">
+                <span id="brand">
+                    <strong>Curso</strong>Vue
+                </span>
+            </div>
+            <!-- MENU DE NAVEGACION -->
+            <nav id="menu">
+                <ul>
+                    <li>
+                        <a href="./index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="./blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="./formulario.html">Formulario</a>
+                    </li>
+                    <li>
+                        <a href="#">Pagina 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Pagina 2</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!---LIMPIAR FLOTADO-->
+            <div class="clearfix"></div>
+        </div>
+    </header>
+
+    <div class="center">
+        <section id="content">
+            <h1 class="subheader">Formulario</h1>
+            <form action="" class="mid-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre">
+                </div>
+                
+                <div class="form-group">
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" name="apellidos">
+                </div>
+                
+                <div class="form-group">
+                    <label for="bio">Biografia</label>
+                    <textarea name="bio" cols="30" rows="5"></textarea>
+                </div>
+                
+                <div class="form-group radiobuttons">
+                    <input type="radio" name="genero" value="hombre" />Hombre
+                    <input type="radio" name="genero" value="mujer" />Mujer
+                    <input type="radio" name="genero" value="otro" />Otro
+                </div>
+
+                <div class="clearfix"></div>
+
+                <input type="submit" value="Enviar" class="btn btn-success">
+            </form>
+        </section>
+
+        <aside id="sidebar">
+            <div id="nav-blog" class="sidebar-item">
+                <h3>
+                    Puedes hacer esto
+                </h3>
+                <a href="#" class="btn btn-success">Crear articulo</a>
+            </div>
+            <div id="search" class="sidebar-item">
+                <h3>
+                    Buscador
+                </h3>
+                <p>
+                    Ecuentra el árticulo que buscas
+                </p>
+                <form action="">
+                    <input type="text" name="search" id="">
+                    <input type="submit" name="submit" class="btn" id="" value="Buscar">
+                </form>
+            </div>
+
+        </aside>
+
+        <div class="clearfix">
+
+        </div>
+
+    </div>
+
+    <footer id="footer">
+        <div class="center">
+            <p>
+                &copy; Máster en frameworks de Justin Jerez
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
